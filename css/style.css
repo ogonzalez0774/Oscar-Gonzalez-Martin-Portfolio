@@ -324,12 +324,21 @@ input[type="submit"] {
     }
 
     #portfolio-photos {
+      margin-left: 55px;
       margin-bottom: 25px;
+    }
+
+    #groupProjects {
+      margin-right: 230px;
     }
 
     img {
       width: 200px;
       height: 200px;
+    }
+
+    .git img {
+      max-height: 22px;
     }
 
     p {
@@ -367,16 +376,27 @@ input[type="submit"] {
     }
 
     #index-main {
-      height: 1000px;
+      height: 1100px;
     }
 
     #portfolio-photos {
-      height: 1200px;
+      width: 600px;
+      margin-left: 20px;
+      height: 3350px;
+    }
+
+    #groupProjects {
+      margin-right: 160px;
+    }
+
+    .projects {
+      margin-left: 0px;
     }
 
     #p1 {
       padding-top: 420px;
     }
+
     .work {
       text-align: center;
       margin-left: 125px;
@@ -388,6 +408,8 @@ input[type="submit"] {
     }
 
     footer {
+      position: relative;
+      bottom: 0px;
       width: 100%;
     }
   }

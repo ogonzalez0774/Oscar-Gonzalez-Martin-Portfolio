@@ -125,7 +125,21 @@ nav a:first-child {
   cursor: pointer;
 }
 
-/* sidebar */
+/* sidebars */
+
+#groupProjects {
+  padding-top: 30px;
+  padding-left: 10px;
+  margin-left: 5px;
+  background: #fff;
+  height: 750px;
+  width: 100%;
+  max-width: 300px;
+  float: right;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
 .sidebar {
   background: #fff;
   padding: 30px;
@@ -166,6 +180,7 @@ h2 {
   width: 22px;
   height: 22px;
 }
+
 /* footer */
 
 footer {

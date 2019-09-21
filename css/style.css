@@ -373,6 +373,7 @@ input[type="submit"] {
 
     .sidebar {
       margin-right: 180px;
+      margin-bottom: 45px;
     }
 
     #index-main {
@@ -380,17 +381,14 @@ input[type="submit"] {
     }
 
     #portfolio-photos {
+      padding-left: 165px;
       width: 600px;
       margin-left: 20px;
-      height: 3350px;
+      height: 3300px;
     }
 
     #groupProjects {
       margin-right: 160px;
-    }
-
-    .projects {
-      margin-left: 0px;
     }
 
     #p1 {
@@ -399,7 +397,7 @@ input[type="submit"] {
 
     .work {
       text-align: center;
-      margin-left: 125px;
+      margin-left: 2px;
     }
 
     #photo {

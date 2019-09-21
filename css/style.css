@@ -283,15 +283,22 @@ input[type="submit"] {
 
   .main-section {
     width: 728px;
-    height: 628px;
+    height: 750px;
     margin-left: 20px;
   }
 
   #portfolio-photos {
-    height: 760px;
+    margin-left: 0px;
+    width: 700px;
+    height: 1850px;
     margin-bottom: 25px;
   }
+
+  .sidebar {
+    float: right;
+  }
   footer {
+    bottom: 0px;
     width: 100%;
   }
 

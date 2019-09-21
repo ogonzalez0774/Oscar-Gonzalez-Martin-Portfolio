@@ -259,6 +259,9 @@ input[type="submit"] {
     height: 760px;
     margin-bottom: 25px;
   }
+  footer {
+    width: 100%;
+  }
 
   @media screen and (max-width: 768px) {
     #logo {
@@ -269,9 +272,16 @@ input[type="submit"] {
     }
 
     .main-section {
+      margin-bottom: 50px;
       width: 728px;
-      margin-left: 20px;
+      height: 700px;
+      margin-left: 60px;
       margin-top: 5px;
+    }
+
+    .sidebar {
+      margin-right: 250px;
+      text-align: center;
     }
 
     #portfolio-photos {
@@ -285,6 +295,9 @@ input[type="submit"] {
 
     p {
       color: black;
+    }
+    footer {
+      width: 100%;
     }
   }
 
@@ -305,8 +318,13 @@ input[type="submit"] {
     }
 
     .main-section {
-      width: 600px;
+      width: 550px;
       margin-top: 40px;
+      margin-left: 45px;
+    }
+
+    .sidebar {
+      margin-right: 180px;
     }
 
     #index-main {

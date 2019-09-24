@@ -199,7 +199,8 @@ footer {
 
 /* portfolio */
 
-.work {
+.work,
+.project-image {
   width: 274px;
   overflow: auto;
   position: relative;
@@ -207,17 +208,20 @@ footer {
   margin-right: 20px 0 25px;
 }
 
-.work:nth-child(even) {
+.work:nth-child(even),
+.project-image:nth-child(even) {
   margin-right: 40px;
 }
 
-.work img {
+.work img,
+.project-image img {
   width: 100%;
   border: 0 none;
   opacity: 0.8;
 }
 
-.work h3 {
+.work h3,
+.project-image h3 {
   height: px;
   border-bottom: 0;
   background: #4aaaa5;
@@ -396,7 +400,7 @@ input[type="submit"] {
 
     .work {
       text-align: center;
-      margin-left: 2px;
+      margin-left: 125px;
     }
 
     #photo {

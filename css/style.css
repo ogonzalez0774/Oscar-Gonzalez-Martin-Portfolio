@@ -119,6 +119,12 @@ nav a:first-child {
   margin-top: 10px;
   float: left;
 }
+.main-image {
+  width: 200px;
+  height: 200px;
+  margin-top: 10px;
+  float: left;
+}
 
 .auth-image:hover {
   cursor: pointer;

@@ -133,11 +133,11 @@ nav a:first-child {
 /* sidebars */
 
 #groupProjects {
-  padding-top: 30px;
+  padding-top: 60px;
   padding-left: 10px;
   margin-left: 5px;
   background: #fff;
-  height: 750px;
+  height: 775px;
   width: 100%;
   max-width: 300px;
   float: right;
@@ -418,5 +418,7 @@ input[type="submit"] {
       bottom: 0px;
       width: 100%;
     }
+  }
+  @media screen and (max-width: 400px) {
   }
 }

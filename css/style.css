@@ -123,6 +123,7 @@ nav a:first-child {
   width: 200px;
   height: 200px;
   margin-top: 10px;
+  margin-right: 5px;
   float: left;
 }
 
@@ -420,5 +421,33 @@ input[type="submit"] {
     }
   }
   @media screen and (max-width: 400px) {
+    body {
+      width: 100%;
+    }
+    #logo {
+      margin: 0px;
+    }
+
+    .main-section {
+      margin-left: 25px;
+    }
+
+    .sidebar {
+      margin-right: -135px;
+    }
+
+    #portfolio-photos {
+      margin-left: 0;
+    }
+
+    #groupProjects {
+      margin-right: -135px;
+    }
+
+    footer {
+      position: relative;
+      bottom: 0px;
+      width: 600px;
+    }
   }
 }

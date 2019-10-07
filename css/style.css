@@ -311,143 +311,142 @@ input[type="submit"] {
     bottom: 0px;
     width: 100%;
   }
-
-  @media screen and (max-width: 768px) {
-    #logo {
-      margin-left: 25px;
-    }
-    #nav {
-      margin-right: 25px;
-    }
-
-    .main-section {
-      margin-bottom: 50px;
-      width: 728px;
-      height: 700px;
-      margin-left: 60px;
-      margin-top: 5px;
-    }
-
-    .sidebar {
-      margin-right: 250px;
-      text-align: center;
-    }
-
-    #portfolio-photos {
-      margin-left: 55px;
-      margin-bottom: 25px;
-    }
-
-    #groupProjects {
-      margin-right: 230px;
-    }
-
-    img {
-      width: 200px;
-      height: 200px;
-    }
-
-    .git img {
-      max-height: 22px;
-    }
-
-    p {
-      color: black;
-    }
-    footer {
-      width: 100%;
-    }
+}
+@media screen and (max-width: 768px) {
+  #logo {
+    margin-left: 25px;
+  }
+  #nav {
+    margin-right: 25px;
   }
 
-  @media screen and (max-width: 640px) {
-    body {
-      color: black;
-    }
-    header {
-      position: static;
-    }
-
-    #logo,
-    #nav {
-      margin-left: 0px;
-      margin-right: 0px;
-      width: 100%;
-      text-align: center;
-    }
-
-    .main-section {
-      width: 550px;
-      margin-top: 40px;
-      margin-left: 45px;
-    }
-
-    .sidebar {
-      margin-right: 180px;
-      margin-bottom: 45px;
-    }
-
-    #index-main {
-      height: 1100px;
-    }
-
-    #portfolio-photos {
-      width: 600px;
-      margin-left: 20px;
-      height: 3300px;
-    }
-
-    #groupProjects {
-      margin-right: 160px;
-    }
-
-    #p1 {
-      padding-top: 420px;
-    }
-
-    .work {
-      text-align: center;
-      margin-left: 125px;
-    }
-
-    #photo {
-      width: 500px;
-      height: 400px;
-    }
-
-    footer {
-      position: relative;
-      bottom: 0px;
-      width: 100%;
-    }
+  .main-section {
+    margin-bottom: 50px;
+    width: 728px;
+    height: 700px;
+    margin-left: 60px;
+    margin-top: 5px;
   }
-  @media screen and (max-width: 400px) {
-    body {
-      width: 100%;
-    }
-    #logo {
-      margin: 0px;
-    }
 
-    .main-section {
-      margin-left: 25px;
-    }
+  .sidebar {
+    margin-right: 250px;
+    text-align: center;
+  }
 
-    .sidebar {
-      margin-right: -135px;
-    }
+  #portfolio-photos {
+    margin-left: 55px;
+    margin-bottom: 25px;
+  }
 
-    #portfolio-photos {
-      margin-left: 0;
-    }
+  #groupProjects {
+    margin-right: 230px;
+  }
 
-    #groupProjects {
-      margin-right: -135px;
-    }
+  img {
+    width: 200px;
+    height: 200px;
+  }
 
-    footer {
-      position: relative;
-      bottom: 0px;
-      width: 600px;
-    }
+  .git img {
+    max-height: 22px;
+  }
+
+  p {
+    color: black;
+  }
+  footer {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    color: black;
+  }
+  header {
+    position: static;
+  }
+
+  #logo,
+  #nav {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .main-section {
+    width: 550px;
+    margin-top: 40px;
+    margin-left: 45px;
+  }
+
+  .sidebar {
+    margin-right: 180px;
+    margin-bottom: 45px;
+  }
+
+  #index-main {
+    height: 1100px;
+  }
+
+  #portfolio-photos {
+    width: 600px;
+    margin-left: 20px;
+    height: 3300px;
+  }
+
+  #groupProjects {
+    margin-right: 160px;
+  }
+
+  #p1 {
+    padding-top: 420px;
+  }
+
+  .work {
+    text-align: center;
+    margin-left: 125px;
+  }
+
+  #photo {
+    width: 500px;
+    height: 400px;
+  }
+
+  footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  body {
+    width: 100%;
+  }
+  #logo {
+    margin: 0px;
+  }
+
+  .main-section {
+    margin-left: 25px;
+  }
+
+  .sidebar {
+    margin-right: -135px;
+  }
+
+  #portfolio-photos {
+    margin-left: 0;
+  }
+
+  #groupProjects {
+    margin-right: -135px;
+  }
+
+  footer {
+    position: relative;
+    bottom: 0px;
+    width: 600px;
   }
 }

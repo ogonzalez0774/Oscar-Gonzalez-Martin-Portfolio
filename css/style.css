@@ -119,6 +119,7 @@ nav a:first-child {
   margin-top: 10px;
   float: left;
 }
+
 .main-image {
   width: 200px;
   height: 200px;
@@ -307,15 +308,18 @@ input[type="submit"] {
   .sidebar {
     float: right;
   }
+
   footer {
     bottom: 0px;
     width: 100%;
   }
 }
+
 @media screen and (max-width: 768px) {
   #logo {
     margin-left: 25px;
   }
+
   #nav {
     margin-right: 25px;
   }
@@ -354,6 +358,7 @@ input[type="submit"] {
   p {
     color: black;
   }
+
   footer {
     width: 100%;
   }
@@ -363,6 +368,7 @@ input[type="submit"] {
   body {
     color: black;
   }
+
   header {
     position: static;
   }
@@ -420,10 +426,12 @@ input[type="submit"] {
     width: 100%;
   }
 }
+
 @media screen and (max-width: 400px) {
   body {
     width: 100%;
   }
+
   #logo {
     margin: 0px;
   }

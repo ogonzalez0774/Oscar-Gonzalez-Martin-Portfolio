@@ -285,6 +285,10 @@ input[type="submit"] {
   cursor: pointer;
 }
 
+.hide {
+  display: none;
+}
+
 /* Media */
 
 @media screen and (max-width: 980px) {
